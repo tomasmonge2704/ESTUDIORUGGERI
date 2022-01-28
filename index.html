@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Estudio Ruggeri</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="floating-wpp.css">
+    <script type="text/javascript" src="floating-wpp.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="myButton"></div>
+    <div id="bg"></div>
+<div class="contact">
+	<div class="envelope">
+		<div class="top">
+			<div class="outer"><div class="inner"></div></div>
+		</div>
+		<div class="bottom"></div>
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="cover"></div>
+		<div class="paper">
+			<a class="call" href="tel:5555555555"><div class="i"></div>549113680-9878</a>
+			<a class="mail" href="mailto:you@domain.com"><div class="i"></div>Info@estudioruggeri.com.ar</a>
+		</div>
+	</div>
+</div>
+</body>
+
+<script type="text/javascript">
+    $(function () {
+        $('#myButton').floatingWhatsApp({
+          phone: '549113680-9878',
+          popupMessage: 'Hola, escribinos cualquier duda!',
+    showPopup: true
+
+        });
+      });
+</script>
+
+</html>
